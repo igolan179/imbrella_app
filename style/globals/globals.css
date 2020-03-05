@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Baloo Bhai", cursive;
+}
+/*# sourceMappingURL=globals.css.map */

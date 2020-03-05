@@ -1,0 +1,78 @@
+@media (max-width: 1023px) {
+  .sonar-emitter {
+    left: 75%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+  }
+  .x1,
+  .x2,
+  .x3,
+  .x4,
+  .x5 {
+    display: none;
+  }
+  header {
+    .logo {
+      padding-top: 60px;
+      img {
+        min-width: 95rem;
+      }
+    }
+  }
+  .content {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    top: 25rem;
+    .zone {
+      margin-top: 20rem;
+      margin-bottom: 10rem;
+      #zone {
+        font-size: 3.5rem;
+        height: 6rem;
+        width: 40rem;
+        &::placeholder {
+          font-size: 3.5rem;
+        }
+      }
+    }
+    .daycheck {
+      margin: 0;
+      .tomorrow,
+      .today {
+        margin: 0;
+        font-size: 4rem;
+      }
+      .switch {
+        $height: 6rem;
+        $width: 15rem;
+        margin: 0px 7rem;
+        width: $width;
+        height: $height;
+        input {
+          &:checked + .slider:before {
+            transform: translate(calc(#{$width} - 7rem), 50%);
+          }
+        }
+        .slider {
+          &:before {
+            height: 3.5rem;
+            width: 3.5rem;
+            bottom: 50%;
+            left: 0.5rem;
+            transform: translate(1rem, 50%);
+          }
+        }
+      }
+    }
+    .result {
+      order: 1;
+      margin-top: 15rem;
+      font-size: 2.3rem;
+      .title {
+        font-size: 4rem;
+      }
+    }
+  }
+}

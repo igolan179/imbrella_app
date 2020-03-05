@@ -1,0 +1,90 @@
+@media (max-width: 1023px) {
+  .sonar-emitter {
+    left: 75%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+  }
+  .x1,
+  .x2,
+  .x3,
+  .x4,
+  .x5 {
+    display: none;
+  }
+  header .logo {
+    padding-top: 60px;
+  }
+  header .logo img {
+    min-width: 95rem;
+  }
+  .content {
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 25rem;
+  }
+  .content .zone {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+  .content .zone #zone {
+    font-size: 3.5rem;
+    height: 6rem;
+    width: 40rem;
+  }
+  .content .zone #zone::-webkit-input-placeholder {
+    font-size: 3.5rem;
+  }
+  .content .zone #zone:-ms-input-placeholder {
+    font-size: 3.5rem;
+  }
+  .content .zone #zone::-ms-input-placeholder {
+    font-size: 3.5rem;
+  }
+  .content .zone #zone::placeholder {
+    font-size: 3.5rem;
+  }
+  .content .daycheck {
+    margin: 0;
+  }
+  .content .daycheck .tomorrow,
+  .content .daycheck .today {
+    margin: 0;
+    font-size: 4rem;
+  }
+  .content .daycheck .switch {
+    margin: 0px 7rem;
+    width: 15rem;
+    height: 6rem;
+  }
+  .content .daycheck .switch input:checked + .slider:before {
+    -webkit-transform: translate(calc(15rem - 7rem), 50%);
+            transform: translate(calc(15rem - 7rem), 50%);
+  }
+  .content .daycheck .switch .slider:before {
+    height: 3.5rem;
+    width: 3.5rem;
+    bottom: 50%;
+    left: 0.5rem;
+    -webkit-transform: translate(1rem, 50%);
+            transform: translate(1rem, 50%);
+  }
+  .content .result {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 15rem;
+    font-size: 2.3rem;
+  }
+  .content .result .title {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

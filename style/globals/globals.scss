@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+$colors: (
+  regular: rgb(85, 175, 255),
+  dark: rgb(9, 114, 206),
+  darker: rgb(12, 99, 175),
+  light: rgb(99, 178, 248),
+  lighter: rgb(168, 214, 255),
+  orange: rgb(255, 165, 0),
+  light_orange: rgb(255, 200, 97),
+  lighter_orange: rgb(255, 230, 175),
+  dark_orange: rgb(214, 139, 0)
+);
+$font: "Baloo Bhai", cursive;
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1vw;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Baloo Bhai", cursive;
+}
