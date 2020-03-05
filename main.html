@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Should You Bring an Umbrella?</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/main.css'>
+</head>
+
+<body class="back-row-toggle splat-toggle">
+    <div class="sonar-emitter">
+        <div class="sonar-wave sonar-wave1"></div>
+        <div class="sonar-wave sonar-wave2"></div>
+        <div class="sonar-wave sonar-wave3"></div>
+        <div class="sonar-wave sonar-wave4"></div>
+    </div>
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="rain front-row"></div>
+    <div class="rain back-row"></div>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+    </header>
+    <div class="content">
+        <div class="zone">
+            <div class="selectbox">
+                <input id="zone" type="text" name="zone" placeholder="Zone">
+            </div>
+        </div>
+        <div class="result">
+            <input type="checkbox" class="toggle" autocomplete="off">
+            <figure class="umbrella standby">
+                <div class="canopy"></div>
+                <div class="shaft"></div>
+            </figure>
+            <div class="title"></div>
+        </div>
+        <div class="daycheck">
+            <div class="today highlight">Today</div>
+            <div class="switch">
+                <input type="checkbox" class="checkbox">
+                <span class="slider"></span>
+            </div>
+            <div class="tomorrow">Tomorrow</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src='script/rain.js'></script>
+    <script src="script/city.js"></script>
+    <script src='script/main.js'></script>
+</body>
+
+</html>
